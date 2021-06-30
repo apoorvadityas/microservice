@@ -45,13 +45,13 @@ app.get("/apply/:jobName", function (req, res) {
   // Qs = querystring.stringify(req.params);
   // console.log(Qs);
   // temp=req.params;
-  
+
 });
 
 
 
 app.post("/apply/:job", (request, response) => {
- 
+
   const {job}=request.params;
   User.findOne({ email: request.body.email })
 
@@ -217,7 +217,7 @@ app.post("/register", async (request, response) => {
 });
 
 // login endpoint
-app.post("/login", (request, response) => {
+app.post("/myspace", (request, response) => {
   // check if email exists
   User.findOne({ email: request.body.email })
 
