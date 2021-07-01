@@ -1,0 +1,3 @@
+[submodule "login-register/loginRegister"]
+	path = login-register/loginRegister
+	url = https://github.com/apoorvadityas/microservice.git
